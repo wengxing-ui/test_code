@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/AutoDT-UI/Base_Action/get_ScreenShot.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AutoDT-UI/Base_Action/utils.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AutoDT-UI/Business/menuAc.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AutoDT-UI/POM/menu.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AutoDT-UI/Params/111.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AutoDT-UI/Params/url.yaml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AutoDT-UI/Params/url.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AutoDT-UI/get_path.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AutoDT-UI/run.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/unittest_login.py" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

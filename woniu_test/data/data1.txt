@@ -1,0 +1,6 @@
+open,ff,http://localhost:8080/woniusales
+type_string,id=username,admin
+type_string,id=password,Milor123
+type_string,id=verifycode,0000
+click_button,xpath=/html/body/div[4]/div/form/div[6]/button,
+should_equal,link text=注销,成功

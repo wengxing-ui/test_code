@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			#title{
+				color: white;
+				text-align: center;
+			}
+			.info{
+				width: 90px;
+				height: 25px;
+				color: ghostwhite;
+				text-align: center;
+			}
+			#detail{
+				width: 1200px;
+				height: 600px;
+				border: none;
+
+			}
+		</style>
+	</head>
+	<body style="background-color: #293441;">
+		<div id="title"><h1>WoniuSalesGUI自动化测试报告</h1></div>
+		<div id="info" align="center">
+			<table border="1">
+				<tr>
+					<td class="info">测试版本</td>
+					<td class="info">&version</td>
+					<td class="info">测试日期</td>
+					<td class="info">&date</td>
+					<td class="info">测试耗时</td>
+					<td class="info">&duration</td>
+					<td class="info">测试人员</td>
+					<td class="info">&tester</td>
+					<td class="info">通过率</td>
+				</tr>
+				<tr>
+					<td class="info">用例总数</td>
+					<td class="info" style="color:#fc97af;">&total</td>
+					<td class="info">通过数</td>
+					<td class="info" style="color:#87f7cf;">&pass</td>
+					<td class="info">失败数</td>
+					<td class="info" >
+						<a href="f3.html" style="color:red;text-decoration:none;">&fail</a>
+					</td>
+					<td class="info">跳过数</td>
+					<td class="info">&skip</td>
+					<td class="info">&rate</td>
+				</tr>
+			</table>
+			
+		</div>
+		<br /><br />
+		<div align="center">
+			<iframe src="WoniuSales测试统计.html" id="detail" ></iframe>
+		</div>
+	</body>
+</html>
