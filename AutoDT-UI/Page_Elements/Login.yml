@@ -1,0 +1,8 @@
+#主要统一集中存放各个页面的元素，方便后期维护，每个页面作为一个模块独立存储，供框架POM中对应页面类调用实现页面元素的定位以及操作；
+inputemail_id : email
+inputpassword_id : password
+loginbutton_id : login
+loginafter_xpath : /html/body/section/div/div[2]/div/p[2]
+loginquit_1 : /html/body/div[3]/div[2]/div[1]/div/div/i
+quitmenu_xapth : //*[@id="app"]/div/div[1]/div[1]/img
+quitbutton_xpath : /html/body/div[3]/ul/li[5]

@@ -1,0 +1,32 @@
+#登录的url
+module: 登录模块
+---
+#用户登录测试数据
+- !!python/tuple
+  - UI_test@qq.com
+  - wx112233
+  - '正确的用户名和密码'
+- !!python/tuple
+  - UI_test
+  - wx112233
+  - '错误的用户名格式和正确的密码'
+- !!python/tuple
+  - qqqqqqqqqqqqq@qq.com
+  - wx112233
+  - '未注册的用户名和正确的密码'
+- !!python/tuple
+  - ''
+  - wx112233
+  - '输入空的用户名和正确的密码'
+- !!python/tuple
+  - UI_test@qq.com
+  - 123456
+  - '正确的用户名和错误的密码'
+- !!python/tuple
+  - UI_test@qq.com
+  - ''
+  - '正确的用户名，输入空的密码'
+- !!python/tuple
+  - ''
+  - ''
+  - '用户名和密码都为空'

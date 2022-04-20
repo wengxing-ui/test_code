@@ -1,0 +1,6 @@
+login: 登录模块
+---
+- !!python/tuple #正确的用户名和密码
+  - UI_test@qq.com
+  - wx112233
+  - 正确的用户名和密码
