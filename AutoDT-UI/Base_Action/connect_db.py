@@ -37,7 +37,7 @@ class ConDB:
     def commit(cls):
         """提交事务"""
         cls.con.commit()
-
+    @classmethod
     def write_in(cls,module,testcase,data,result,comment):
         '''写入数据库'''
         ConDB().con_db(host='localhost', passwd='123456', db='dt')
